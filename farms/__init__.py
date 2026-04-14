@@ -25,7 +25,7 @@ import os
 
 import pandas as pd
 
-from .version import __version__
+from ._version import __version__
 
 FARMSDIR = os.path.dirname(os.path.realpath(__file__))
 
