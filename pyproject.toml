@@ -168,3 +168,4 @@ packages = ["farms"]
 
 [tool.setuptools_scm]
 version_file = "farms/_version.py"
+version_scheme = "guess-next-dev"
