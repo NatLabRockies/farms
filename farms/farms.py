@@ -162,7 +162,6 @@ def farms(
         Cloud optical thickness (cld_opd_dcomp) (unitless).
     cloud_type : np.ndarray
         Integer values representing different cloud types
-        https://github.nrel.gov/PXS/pxs/wiki/Cloud-Classification
     cloud_effective_radius : np.ndarray
         Cloud effective particle radius (cld_reff_dcomp) (micron).
     solar_zenith_angle : np.ndarray

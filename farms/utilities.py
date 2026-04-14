@@ -74,7 +74,7 @@ def ti_to_radius(time_index, n_cols=1):
     """Calculates Earth-Sun Radius Vector.
 
     Reference:
-    http://www.nrel.gov/docs/fy08osti/34302.pdf
+    http://www.nlr.gov/docs/fy08osti/34302.pdf
 
     Parameters
     ----------
