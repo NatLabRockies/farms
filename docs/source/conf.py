@@ -28,10 +28,8 @@ pkg = os.path.dirname(os.path.abspath(os.path.dirname(__file__)))
 pkg = os.path.dirname(pkg)
 sys.path.append(pkg)
 
-with open(os.path.join(pkg, "farms", "_version.py"), encoding="utf-8") as f:
-    v = f.read()
+from farms import __version__ as v
 
-v = v.split("=")[-1].strip().strip('"').strip("'")
 # The short X.Y version
 version = v
 # The full version, including alpha/beta/rc tags
