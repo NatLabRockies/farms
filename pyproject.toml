@@ -37,7 +37,8 @@ dependencies = [
 dev = [
   "build>=0.5",
   "pre-commit",
-  "ruff>=0.5.0"
+  "ruff>=0.5.0",
+  "twine>=5.0",
 ]
 doc = [
   "sphinx>=7.0",
