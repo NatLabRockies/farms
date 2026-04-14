@@ -5,7 +5,7 @@ Adapted from Yu Xie IDL Fast Radiative Transfer Model
 @author: Anthony Lopez
 
 This Fast All-sky Radiation Model for Solar applications (FARMS) was developed
-by Yu Xie (Yu.Xie@nrel.gov). Please contact him for more information.
+by Yu Xie (Yu.Xie@nlr.gov). Please contact him for more information.
 
 Literature
 ----------

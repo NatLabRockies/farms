@@ -8,11 +8,7 @@ See their documentation for (a lot) more details.
 To generate the docs yourself, you'll need the appropriate package:
 
 ```
-conda install sphinx
-conda install sphinx_rtd_theme
-
-pip install ghp-import
-pip install sphinx-click
+python -m pip install sphinx sphinx_rtd_theme ghp-import sphinx-click
 ```
 
 ## Refreshing the API Documentation

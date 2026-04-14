@@ -2,29 +2,23 @@
 Welcome to the Fast All-sky Radiation Model for Solar applications (FARMS)!
 ***************************************************************************
 
-.. image:: https://github.com/NREL/farms/workflows/Documentation/badge.svg
+.. image:: https://github.com/NatLabRockies/farms/workflows/Documentation/badge.svg
     :target: https://nrel.github.io/farms/
 
-.. image:: https://github.com/NREL/farms/workflows/Pytests/badge.svg
-    :target: https://github.com/NREL/farms/actions?query=workflow%3A%22Pytests%22
+.. image:: https://github.com/NatLabRockies/farms/workflows/Pytests/badge.svg
+    :target: https://github.com/NatLabRockies/farms/actions?query=workflow%3A%22Pytests%22
 
-.. image:: https://github.com/NREL/farms/workflows/Lint%20Code%20Base/badge.svg
-    :target: https://github.com/NREL/farms/actions?query=workflow%3A%22Lint+Code+Base%22
+.. image:: https://github.com/NatLabRockies/farms/workflows/Lint%20Code%20Base/badge.svg
+    :target: https://github.com/NatLabRockies/farms/actions?query=workflow%3A%22Lint+Code+Base%22
 
-.. image:: https://img.shields.io/pypi/pyversions/NREL-farms.svg
-    :target: https://pypi.org/project/NREL-farms/
+.. image:: https://img.shields.io/pypi/pyversions/NLR-farms.svg
+    :target: https://pypi.org/project/NLR-farms/
 
-.. image:: https://badge.fury.io/py/NREL-farms.svg
-    :target: https://badge.fury.io/py/NREL-farms
+.. image:: https://badge.fury.io/py/NLR-farms.svg
+    :target: https://badge.fury.io/py/NLR-farms
 
-.. image:: https://anaconda.org/nrel/nrel-farms/badges/version.svg
-    :target: https://anaconda.org/nrel/nrel-farms
-
-.. image:: https://anaconda.org/nrel/nrel-farms/badges/license.svg
-    :target: https://anaconda.org/nrel/nrel-farms
-
-.. image:: https://codecov.io/gh/nrel/farms/branch/master/graph/badge.svg?token=WQ95L11SRS
-    :target: https://codecov.io/gh/nrel/farms
+.. image:: https://codecov.io/gh/NatLabRockies/farms/branch/master/graph/badge.svg?token=WQ95L11SRS
+    :target: https://codecov.io/gh/NatLabRockies/farms
 
 
 The Fast All-sky Radiation Model for Solar applications (FARMS) is used to
@@ -35,26 +29,25 @@ compute cloudy irradiance.
 Installing farms
 ================
 
-Option 1: Install from PIP or Conda (recommended for analysts):
----------------------------------------------------------------
+Option 1: Install from PyPI (recommended for analysts):
+-------------------------------------------------------
 
 1. Create a new environment:
     ``conda create --name farms``
 
-2. Activate directory:
+2. Activate the environment:
     ``conda activate farms``
 
 3. Install farms:
-    1) ``pip install NREL-farms`` or
-    2) ``conda install nrel-farms --channel=nrel``
+    ``pip install NLR-farms``
 
 Option 2: Clone repo (recommended for developers)
 -------------------------------------------------
 
-1. Create ``farms`` environment and install package
+1. Create an environment and install package
     1) Create a conda env: ``conda create -n farms``
     2) Run the command: ``conda activate farms``
-    3) cd into the repo cloned in 1.
+    3) Clone the repository and ``cd`` into it.
     4) prior to running ``pip`` below, make sure the branch is correct (install
        from master!)
     5) Install ``farms`` and its dependencies by running:

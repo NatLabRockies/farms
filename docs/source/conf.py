@@ -28,7 +28,7 @@ pkg = os.path.dirname(os.path.abspath(os.path.dirname(__file__)))
 pkg = os.path.dirname(pkg)
 sys.path.append(pkg)
 
-with open(os.path.join(pkg, "farms", "version.py"), encoding="utf-8") as f:
+with open(os.path.join(pkg, "farms", "_version.py"), encoding="utf-8") as f:
     v = f.read()
 
 v = v.split("=")[-1].strip().strip('"').strip("'")
@@ -109,7 +109,7 @@ default_dark_mode = False
 
 html_context = {
     "display_github": True,
-    "github_user": "nrel",
+    "github_user": "NatLabRockies",
     "github_repo": "farms",
     "github_version": "main",
     "conf_py_path": "/docs/source/",
