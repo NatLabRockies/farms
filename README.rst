@@ -3,7 +3,7 @@ Welcome to the Fast All-sky Radiation Model for Solar applications (FARMS)!
 ***************************************************************************
 
 .. image:: https://github.com/NatLabRockies/farms/workflows/Documentation/badge.svg
-    :target: https://nrel.github.io/farms/
+    :target: https://natlabrockies.github.io/farms/
 
 .. image:: https://github.com/NatLabRockies/farms/workflows/Pytests/badge.svg
     :target: https://github.com/NatLabRockies/farms/actions?query=workflow%3A%22Pytests%22

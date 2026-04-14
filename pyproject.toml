@@ -9,7 +9,7 @@ build-backend = "setuptools.build_meta"
 name = "NLR-farms"
 dynamic = ["version"]
 description = "The Fast All-sky Radiation Model for Solar applications (FARMS)"
-keywords = ["farms", "NREL"]
+keywords = ["farms", "NLR"]
 readme = "README.rst"
 authors = [
   {name = "Brandon Benton", email = "brandon.benton@nlr.gov"},
@@ -51,7 +51,7 @@ test = [
 
 [project.urls]
 homepage = "https://github.com/NatLabRockies/farms"
-documentation = "https://nrel.github.io/farms/"
+documentation = "https://natlabrockies.github.io/farms/"
 repository = "https://github.com/NatLabRockies/farms"
 
 [tool.ruff]
